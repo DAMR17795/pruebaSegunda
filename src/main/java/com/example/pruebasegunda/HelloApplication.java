@@ -111,7 +111,7 @@ public class HelloApplication extends Application {
         scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
         grid.add(scenetitle, 0, 0, 2, 1);
 
-        Label userName = new Label("Nombre: ");
+        Label userName = new Label("Nombrae: ");
         grid.add(userName, 0,1);
 
         TextField userTextField = new TextField();
